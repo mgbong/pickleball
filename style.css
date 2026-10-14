@@ -94,4 +94,28 @@ body {
     padding: 10px 20px;
     background-color: yellow;
     border-radius: 20px;
+    text-decoration: none;
+}
+
+.learn p{
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.footer{
+    font-size: 14px;
+    background-color: black;
+    height: 50%;
+    width: 100%;
+    margin-top: 100%;
+
+}
+.footer p{
+    font-size: 20px;
+    color: white;
+    height: 50px;
+    width: 100%;
+    margin-top: 50%;
+    text-align: center;
+    justify-content:center;
 }
