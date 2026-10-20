@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 12px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f4;
+    color: #111;
+}
+
+.about,
+.contact {
+    scroll-margin-top: 70px;
+    padding: 80px 0 20px;
+}
+
+.cont {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding-bottom: 16px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #111;
+}
+
+.section-head h2 {
+    font-size: 32px;
+    color: #4c7a1a;
+}
+
+.section-head a,
+.section-head span {
+    font-size: 14px;
+    color: #555;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.card {
+    flex: 1 1 200px;
+    padding: 28px 20px;
+    background-color: #000;
+    border: 1px solid #2a2a2a;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card .label {
+    display: block;
+    margin-bottom: 14px;
+    color: #ff4d94;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.card .value {
+    color: #fff;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 1.4;
+}

@@ -1,0 +1,90 @@
+.about-box {
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+    background-color: transparent;
+    border: 2px solid #9caf88;
+    border-radius: 28px;
+    color: #2f3a2b;
+}
+
+.about-box .section-head {
+    border-bottom: 2px solid #9caf88;
+}
+
+.about-box .section-head h2 {
+    color: #4c7a1a;
+}
+
+.about-box .section-head a {
+    color: #555;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-details {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 680px;
+}
+
+.intro h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 40px;
+    line-height: 1.15;
+    color: #4c7a1a;
+}
+
+.intro .copy {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    color: #444;
+    line-height: 1.65;
+}
+
+
+.about-details .cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.about .card {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 220px;
+    gap: 5px;
+    padding: 26px 24px;
+    background-color: transparent;
+    border: 2px solid #9caf88;
+    border-radius: 12px;
+    text-align: left;
+}
+
+
+.about .card .label {
+    margin-bottom: 0;
+    color: #2f4912;
+    font-size: 13px;
+    text-align: center;
+}
+
+.about .card .value {
+    color: #2f3a2b;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.55;
+    text-align: center;
+}

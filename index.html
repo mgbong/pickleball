@@ -4,20 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pickleball Website</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Pickleball</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 
-<section>
-    <div class="navbar">
+<body>
+
+    <header class="navbar">
         <b>AAA</b>
         <ul>
-            <li><a href="#page1">Page 1</a></li>
-            <li><a href="#page2">Page 2</a></li>
-        </ul>
-    </div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutus">About</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#res" class="reserve">Reserve a Court</a></li>
+    </header>
 
-    <section class="box_container" id="page1">
+    <section class="box_container" id="home">
         <div class="boxes">
             <div class="box"></div>
             <div class="box"></div>
@@ -41,16 +48,127 @@
             placeat aperiam a assumenda excepturi impedit <br> tempora repellendus autem in,
             hic optio veniam incidunt!
         </p>
-        <a href="#page1" class="learn">Learn More</a>
-    </section>
-    <section class="page2" id="page2">
-        <p> This is page 2</p>
+        <a href="#aboutus" class="learn">Learn More</a>
     </section>
 
-    <section class= "footer">
-        <p> This is footer</p>
+    <section class="about" id="aboutus">
+        <div class="cont">
 
-</section>
+            <div class="about-box">
+
+            <div class="section-head">
+                <h2>About Us</h2>
+                <a href="#home">Back to home</a>
+            </div>
+
+            <div class="about-content">
+
+            <div class="about-details">
+            <div class="intro">
+                <h3>Every great rally begins with a court.</h3>
+                <div class="copy">
+                    <p>Pickleball is a friendly place to play, whether you are learning your first serve or chasing
+                        a tournament win. Grab a paddle, bring your friends, and find a game that fits your pace.</p>
+                    <p>We keep the courts open, the games fun, and the community welcoming, so everyone leaves a little better than they arrived.</p>
+                </div>
+            </div>
+
+            <div class="cards">
+                <div class="card">
+                    <span class="label">Bring your crew</span>
+                    <p class="value">Grab your team and share the court for a game that is all about fun.</p>
+                </div>
+                <div class="card">
+                    <span class="label">Level up</span>
+                    <p class="value">Sharpen your serve, learn new shots, and take on a fresh challenge every visit.</p>
+                </div>
+                <div class="card">
+                    <span class="label">Play fair</span>
+                    <p class="value">Cheer on every player and keep each match friendly and fair.</p>
+                </div>
+            </div>
+            </div>
+
+            </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="cont">
+
+            <div class="section-head">
+                <h2>Contact us</h2>
+                <span>A question about the court? Let's talk.</span>
+            </div>
+
+            <div class="contact-body">
+
+                <div class="contact-info">
+                    <h3>Your next game starts here.</h3>
+                    <p>Ask about reserving a court, planning a game with friends, or getting to know Pickleball.</p>
+
+                    <div class="cards">
+                        <div class="card">
+                            <span class="label">Email</span>
+                            <p class="value">hello@example.com</p>
+                            <p class="note">Placeholder</p>
+                        </div>
+                        <div class="card">
+                            <span class="label">Phone</span>
+                            <p class="value">Add your phone number</p>
+                            <p class="note">Placeholder</p>
+                        </div>
+                        <div class="card">
+                            <span class="label">Find the court</span>
+                            <p class="value">Add your court address</p>
+                            <p class="note">Placeholder</p>
+                        </div>
+                    </div>
+
+                    <p class="contact-note">Planning a visit? Include your preferred date, time, and number of players in your message. A reservation is only confirmed once the team replies.</p>
+                </div>
+
+                <form class="card form-card" action="#" onsubmit="return false;">
+                    <span class="label">Leave a message</span>
+
+                    <div class="field-row">
+                        <div class="field">
+                            <label for="name">Your name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="field">
+                            <label for="email">Email address</label>
+                            <input type="email" id="email" required>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label for="topic">What can we help with?</label>
+                        <select id="topic">
+                            <option>General question</option>
+                            <option>Reserve a court</option>
+                            <option>Group or team game</option>
+                        </select>
+                    </div>
+
+                    <div class="field">
+                        <label for="message">Your message</label>
+                        <textarea id="message" rows="4" required></textarea>
+                    </div>
+
+                    <button type="submit" class="send">Send message</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>This is footer</p>
+    </footer>
 
 </body>
 
